@@ -13,8 +13,7 @@ Dentro do domínio, esse exemplo trata expecificamente da cotação de criptomoe
 ## Idiomas ubíquos
 
 * Modelo de domínio de Moeda
-  * Uma moeda ter uma cotação em cada outra moeda
-  * Uma moeda pode ser comparada com outra moeda
+  * Uma moeda ter várias cotações em outras moedas
   
 * Modelo de domínio de Cotação
   * Uma cotação exprime o preço de uma unidade de moeda em unidades (ou frações) de outra moeda
