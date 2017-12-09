@@ -11,8 +11,8 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
+$app->get('/', function () use ($app) {
+    return $app->version();
 });
 
-$router->get('/cotacao', "CotacaoController@index");
+$app->get('/api/v1/cotacao', "CotacaoController@index");
